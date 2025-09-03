@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FitLife Gym</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <header>
+      <nav class="navbar">
+        <h1 class="logo">FitLife</h1>
+        <ul class="nav-links">
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+      <h2>Transform Your Body, Transform Your Life</h2>
+      <p>Join FitLife Gym today and start your fitness journey!</p>
+      <button onclick="alert('Thanks for joining!')">Join Now</button>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+      <h2>Why Choose FitLife?</h2>
+      <div class="feature-cards">
+        <div class="card">🏋️‍♂️ Modern Equipment</div>
+        <div class="card">🤝 Personal Trainers</div>
+        <div class="card">💪 Flexible Plans</div>
+      </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing">
+      <h2>Pricing Plans</h2>
+      <div class="plans">
+        <div class="plan">
+          <h3>Basic</h3>
+          <p>$20 / month</p>
+          <button>Choose</button>
+        </div>
+        <div class="plan popular">
+          <h3>Standard</h3>
+          <p>$40 / month</p>
+          <button>Choose</button>
+        </div>
+        <div class="plan">
+          <h3>Premium</h3>
+          <p>$60 / month</p>
+          <button>Choose</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+      <h2>Contact Us</h2>
+      <form id="contactForm">
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Your Email" required />
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2025 FitLife Gym. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
